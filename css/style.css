@@ -136,3 +136,25 @@
     background-color: #228b22;
     border: 1px dashed black;
 }
+
+/* FOOTER */
+.container-footer {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    background-color: black;
+}
+
+.rosso {
+    width: 20%;
+    height: 190px;
+    background-color: #f08080;
+    border: 1px dashed white;
+}
+
+.prima-colonna, .seconda-colonna, .terza-colonna, .quarta-colonna {
+    width: 10%;
+    height: 190px;
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
