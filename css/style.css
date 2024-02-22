@@ -40,7 +40,6 @@
 /* banner */
 .banner {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -49,4 +48,91 @@
     height: 150px;
     background-color: #ee82ee;
     margin-top: 10px;
+}
+
+/* MAIN */
+.container-primo-rettangolo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.primo-rettangolo-blu {
+    width: 40%;
+    height: 180px;
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.primo-rettangolo-rosa {
+    width: 20%;
+    height: 180px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+/* secondo rettangolo con sfondo grigio */
+.container-secondo-rettangolo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #d3d3d3;
+}
+
+.secondo-rettangolo-rosa {
+    width: 20%;
+    height: 180px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+.secondo-rettangolo-blu {
+    width: 40%;
+    height: 180px;
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+/* terzo rettangolo */
+.container-terzo-rettangolo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.terzo-rettangolo-blu {
+    width: 40%;
+    height: 180px;
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.terzo-rettangolo-rosa {
+    width: 20%;
+    height: 180px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+/* quarto rettangolo verde con sfondo grigio */
+.container-quarto-rettangolo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: #d3d3d3;
+}
+
+.rettangolo-verde {
+    height: 380px;
+    width: 60%;
+    background-color: #228b22;
+    border: 1px dashed black;
 }
