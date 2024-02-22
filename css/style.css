@@ -5,3 +5,48 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+.container-header {
+    background-color: #00008b;
+    height: 200px;
+}
+
+/* navigazione */
+.navigazione {
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+}
+
+.logo, .login {
+    background-color: #daa520;
+    border: 1px dashed black;
+    width: 10%;
+    margin: 5px 0;
+}
+
+.link {
+    background-color: #daa520;
+    border: 1px dashed black;
+    width: 40%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.login {
+    text-align: end;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rettangolo-rosa {
+    width: 500px;
+    height: 150px;
+    background-color: #ee82ee;
+    margin-top: 10px;
+}
