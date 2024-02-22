@@ -138,6 +138,7 @@
 }
 
 /* FOOTER */
+/* prima parte di footer */
 .container-footer {
     display: flex;
     height: 200px;
@@ -149,7 +150,7 @@
     width: 20%;
     height: 190px;
     background-color: #f08080;
-    border: 1px dashed white;
+    border: 1px dashed black;
 }
 
 .prima-colonna, .seconda-colonna, .terza-colonna, .quarta-colonna {
@@ -157,4 +158,35 @@
     height: 190px;
     background-color: #20b2aa;
     border: 1px dashed white;
+}
+
+/* seconda parte di footer con logo e bottone */
+.secondo-container-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: end;
+    height: 50px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.contenitore {
+    height: 40px;
+    width: 60%;
+    background-color: #7fffd4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondo-logo {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+
+.bottone {
+    background-color: #ffb6c1;
+    border: 1px dashed black;
 }
